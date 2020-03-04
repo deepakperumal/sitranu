@@ -1,3 +1,9 @@
+
+
+Content of giveindia,effect of barefoot and roomtoread . foot image instead of connector
+code style of amnesty
+
+
 [![@coreui angular](https://img.shields.io/badge/@coreui%20-angular-lightgrey.svg?style=flat-square)](https://github.com/coreui/angular)
 [![npm package][npm-coreui-angular-badge]][npm-coreui-angular]
 [![NPM downloads][npm-coreui-angular-download]][npm-coreui-angular]  
