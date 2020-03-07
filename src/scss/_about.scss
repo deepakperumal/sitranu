@@ -1,4 +1,42 @@
-.about
-{
-    color:red;
+#showcase {
+  background: url("images/image5.jpg");
+  min-height: 500px;
+  background-size: cover;
+}
+.heading-main {
+  font-size: 2.75rem;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  line-height: 1.1;
+}
+.heading-in-padded {
+  margin-top: 0;
+  margin-bottom: 1.71429rem;
+}
+.quote-source-header {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  font-family: TradeGothicLT-BoldCondTwenty, HelveticaNeue-CondensedBold,
+    "Franklin Gothic Medium", sans-serif;
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  line-height: 1.1;
+  position: relative;
+}
+.quote-source-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.1;
+  margin-top: 0.85714rem;
+  text-align: center;
+}
+.poster-section {
+  background: url("images/image3.jpg");
+  min-height: 500px;
+  background-size: cover;
 }
