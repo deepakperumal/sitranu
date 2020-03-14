@@ -141,23 +141,6 @@ h6 {
 				width: 100%;
 			}
 		}
-		.desc-divider-content {
-			border: 1px solid #ededed;
-			padding: 30px;
-			border-radius: 6px;
-			background: #fdfdfd;
-			@media only screen and (max-width: 767px) {
-				.desc-divider-content-img  {
-					width: 100% !important;
-					margin-bottom: 13px;
-					float: unset !important;
-				}
-			}
-			.desc-divider-content-img {
-				float: right;
-				width: 231px;
-			}
 
-		}
 	}
 }
