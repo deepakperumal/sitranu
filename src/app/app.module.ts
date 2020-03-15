@@ -21,6 +21,7 @@ import { LoginComponent } from "./views/login/login.component";
 import { RegisterComponent } from "./views/register/register.component";
 import { HomeComponent } from "./views/home/home.component";
 import { AboutComponent } from "./views/about-us/about-us.component";
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 const APP_CONTAINERS = [DefaultLayoutComponent];
 
 import {
@@ -28,7 +29,7 @@ import {
   AppBreadcrumbModule,
   AppHeaderModule,
   AppFooterModule,
-  AppSidebarModule
+  AppSidebarModule,
 } from "@coreui/angular";
 
 // Import routing module
@@ -52,7 +53,8 @@ import { ChartsModule } from "ng2-charts";
     PerfectScrollbarModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
-    ChartsModule
+    ChartsModule,
+    NgbModule
   ],
   declarations: [
     AppComponent,
