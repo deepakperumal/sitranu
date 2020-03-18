@@ -7,6 +7,26 @@ body {
 	background-color: #ffffff;
 }
 
+header{
+	margin-bottom: 85px;
+}
+.footer {
+    background: #000;
+    color: #fff;
+}
+
+.active a{
+	color: #7687ff !important;
+    font-weight: 500;
+}
+.fixed-top {
+	z-index: 9999999;
+    background: #fff;
+}
+.nav-links {
+	color:'#000000';
+}
+
 h1,
 h2,
 h3,
