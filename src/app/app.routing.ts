@@ -8,17 +8,8 @@ import { P404Component } from "./views/error/404.component";
 import { P500Component } from "./views/error/500.component";
 import { LoginComponent } from "./views/login/login.component";
 import { RegisterComponent } from "./views/register/register.component";
-import { HomeComponent } from "./views/home/home.component";
-import { AboutComponent } from "./views/about-us/about-us.component";
+
 export const routes: Routes = [
-  {
-    path: "",
-    component: HomeComponent
-  },
-  {
-    path: "about",
-    component: AboutComponent
-  },
   {
     path: "dashboard",
     redirectTo: "dashboard",

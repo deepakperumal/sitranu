@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 declare var $: any;
 
 @Component({
-  templateUrl: 'home.component.html'
+  templateUrl: '../../views/home/home.component.html'
 })
 export class HomeComponent {
 

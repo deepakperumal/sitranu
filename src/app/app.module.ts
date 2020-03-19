@@ -19,11 +19,9 @@ import { P404Component } from "./views/error/404.component";
 import { P500Component } from "./views/error/500.component";
 import { LoginComponent } from "./views/login/login.component";
 import { RegisterComponent } from "./views/register/register.component";
-import { HomeComponent } from "./views/home/home.component";
-import { AboutComponent } from "./views/about-us/about-us.component";
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {ClientViewModuleModule} from './controller/page-controller/client-view-module.module';
+import {PageRoutingModule} from './controller/page-controller/page-routing-module' 
 const APP_CONTAINERS = [DefaultLayoutComponent];
-
 import {
   AppAsideModule,
   AppBreadcrumbModule,
@@ -42,6 +40,8 @@ import { ChartsModule } from "ng2-charts";
 
 @NgModule({
   imports: [
+    PageRoutingModule,
+    ClientViewModuleModule,
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
@@ -53,8 +53,7 @@ import { ChartsModule } from "ng2-charts";
     PerfectScrollbarModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
-    ChartsModule,
-    NgbModule
+    ChartsModule
   ],
   declarations: [
     AppComponent,
@@ -62,9 +61,7 @@ import { ChartsModule } from "ng2-charts";
     P404Component,
     P500Component,
     LoginComponent,
-    RegisterComponent,
-    HomeComponent,
-    AboutComponent
+    RegisterComponent
   ],
   providers: [
     {
