@@ -1,1 +1,49 @@
-// Here you can add other styles
+/* Common For All User Pages */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Work Sans", sans-serif !important;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  i {
+    margin-right: 5px;
+  }
+}
+.services {
+  margin: 98px 0px 50px 0pc;
+}
+
+li {
+  list-style: none;
+}
+.rounded {
+  border-radius: 0.25rem !important;
+  width: 100%;
+}
+.bg-gray {
+  background-color: rgb(249, 249, 249) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+.carousal-cont {
+  position: relative;
+  height: 100vh;
+}
+.picsum-img-wrapper {
+  height: 100vh;
+}

@@ -4,9 +4,10 @@ import { HomeComponent }  from './home.component';
 import { AboutComponent }  from './about.component';
 import { EventComponent } from './event.component'
 import { HistoryComponent } from './history.component'
-import { ContactComponent } from './contact.component'
+import { ContactComponent } from './donate.component'
 import { SharedModuleModule } from '../../shared/module/shared-module.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { Ng2OdometerModule } from 'ng2-odometer';
 @NgModule({
   declarations: [
     HomeComponent,
@@ -18,7 +19,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     CommonModule,
     SharedModuleModule,
-    NgbModule
+    NgbModule,
+    Ng2OdometerModule
+    
   ]
 })
 export class ClientViewModuleModule { }

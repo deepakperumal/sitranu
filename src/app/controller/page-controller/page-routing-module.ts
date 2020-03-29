@@ -4,14 +4,14 @@ import {HomeComponent} from './home.component';
 import {AboutComponent} from './about.component'
 import { EventComponent } from './event.component'
 import { HistoryComponent } from './history.component'
-import { ContactComponent } from './contact.component'
+import { ContactComponent } from './donate.component'
 
 
 export const routes: Routes = [
         {path:'',component: HomeComponent},
         {path:'about',component: AboutComponent},
         {path:'history',component: HistoryComponent},
-        {path:'contact',component: ContactComponent},
+        {path:'donate',component: ContactComponent},
         {path:'event',component: EventComponent}
 ];
 
