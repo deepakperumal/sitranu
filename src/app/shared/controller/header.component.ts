@@ -11,7 +11,7 @@ export class HeaderComponent {
   constructor(private router : Router) { }
   ngOnInit() {
     $(document).ready(function() {
-     $('.cui-justify-left').click(function(e){
+     $('.logo1').click(function(e){
         $('#navbarTogglerDemo01').toggle()
       })
    });

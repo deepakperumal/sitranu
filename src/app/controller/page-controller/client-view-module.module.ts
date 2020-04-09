@@ -4,6 +4,7 @@ import { HomeComponent }  from './home.component';
 import { AboutComponent }  from './about.component';
 import { EventComponent } from './event.component'
 import { HistoryComponent } from './history.component'
+import {  ChildrenComponent} from './children.component'
 import { ContactComponent } from './donate.component'
 import { SharedModuleModule } from '../../shared/module/shared-module.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -14,7 +15,8 @@ import { Ng2OdometerModule } from 'ng2-odometer';
     AboutComponent,
     EventComponent,
     HistoryComponent,
-    ContactComponent
+    ContactComponent,
+    ChildrenComponent
   ],
   imports: [
     CommonModule,

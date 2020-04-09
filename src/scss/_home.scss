@@ -416,8 +416,27 @@
 
 /* Media */
 @media only screen and (max-width: 767px) {
+
+
+.logo
+{
+  display: none !important;
+}
+.logo1
+{
+  display: block !important;
+}
+
   .carousel-caption {
     width: 100% !important;
+  }
+  .abt-img
+  {
+    font-size: 60px !important;
+  }
+  .navbar-toggler
+  {
+    display: none !important;
   }
   .xs-funfact-list {
     margin-top: 40px !important;

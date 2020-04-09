@@ -10,10 +10,11 @@ header {
   }
   .page-navbar {
     border-bottom: 1px solid #ededed;
-    .logo {
-      width: 180px;
+    .logo,.logo1 {
+      width: 280px;
       position: relative;
       top: 4px;
+      cursor: pointer;
     }
     .nav-link {
       color: "#000000";

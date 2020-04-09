@@ -5,6 +5,7 @@ import {AboutComponent} from './about.component'
 import { EventComponent } from './event.component'
 import { HistoryComponent } from './history.component'
 import { ContactComponent } from './donate.component'
+import { ChildrenComponent } from './children.component'
 
 
 export const routes: Routes = [
@@ -12,7 +13,9 @@ export const routes: Routes = [
         {path:'about',component: AboutComponent},
         {path:'history',component: HistoryComponent},
         {path:'donate',component: ContactComponent},
-        {path:'event',component: EventComponent}
+        {path:'event',component: EventComponent},
+        {path:'children',component: ChildrenComponent}
+        
 ];
 
 @NgModule({
